@@ -1,0 +1,25 @@
+
+
+Q5 - 
+	a) Does the below code compile successfully? If not, why?
+		interface A{
+				int i = 111;
+			}
+			
+		class B implements A{
+				void methodB(){
+					i = 222;
+			}
+		}
+	
+	
+	Ans ) 
+		
+		The answer of the above code is No.
+		The above code will not compile successfully.
+		
+		Reason : 
+			The reason because of which above code will cot compile successfully is class B is Implementing A.
+			And we know that in abstract every variable is consider as final.
+			So we can not change the value of the variable i.
+			That is why this program will give compile time error.

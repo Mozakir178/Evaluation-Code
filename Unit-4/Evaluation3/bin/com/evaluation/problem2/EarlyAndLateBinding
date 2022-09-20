@@ -1,0 +1,46 @@
+
+
+
+Q2- Difference between Early and Late binding? 
+
+	Early Binding : 
+		The binding which can be resolved at compiler time by the compiler is known as the Early binding.
+		Binding of all the static private is done at comile time.
+		Also all final and method are also bind at compile time.
+		
+			Ex.
+				public class EarlyBinding{
+				 	static final int num = 50 ;
+				static void fun1(){
+				System.out.println("Binding of this method will be done at compile time") ;
+				}
+				}
+				
+	
+	Late Binding : 
+		The late binding is also called as dynamic binding.
+		In late or dynamic binding, the compiler does not decide the method to be called. 
+		It is decide by jvm which method should be bind.
+		The Overriding is the perfect exemple of late Binding.
+		There both child and super class have same method but it is decided at JVM.
+		
+			Ex.
+				
+				public abstract class LateBinding{
+				
+					public abstract void print() ;
+					} 
+					
+				
+				
+				public class A extends LateBinding{
+				
+					@Override
+					public void print(){
+						System.out.println("This is the example of late binding") ;
+					}
+					}
+					
+					
+					
+					
