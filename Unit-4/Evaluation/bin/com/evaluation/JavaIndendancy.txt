@@ -1,0 +1,7 @@
+Q1) Explain why Java is platform independent ?
+Ans) 
+	JAVA is plateform independent because it uses a virtual machine. The Java programs language and all APIs are compiled into Bytecode. Bytecodes are totally plateform independant. first sorce code is converted into the Bytecode at compilasion Phase and then this bytecode can be run in any plateform irrespective of the platform.
+	When Bytecode run in JVM it convert this Bytecode into system understandable code. 
+	
+	So even you write your code in Windows system after making bytecode of your code you can run this code ant any operating system. wether it is macos lynux or ant other plateform it will work.
+		Write your code in window and run in any operating system.
