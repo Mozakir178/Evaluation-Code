@@ -1,0 +1,75 @@
+
+
+Q1) 
+
+a) Why String is immutable in java and what is the difference between String and String Builder? And Write
+some of the methods of String class at least 5 with example.
+
+ans)
+
+The String object are stored in String constant pool area. and it makes the String immutable.
+The String is immutable in Java Because of the security reason. 
+String is immurable because of security, synchronization and class loading.
+The resaon of making string final is to destroy the immutability and not allow others to extend it. 
+
+difference between String and StringBuilder.
+
+String:  -
+String is immutable.
+String is stored in SCP area.
+even after setting its value to null String is not eligible for garbage collector.
+String is Special Class.
+
+StringBuilder :-
+String builder is mutable.
+StringBuilder is stored in heap area.
+after setting its value to null StringBuilder object is eligible for garbage collector.
+String Builder is Class.
+	
+	Methods on String:-
+	equals() Method.
+	String s1 = "MASAI SCHOOL" ;
+	String s2 = "MASAI SCHOOL" ;
+	
+	if(s1.equals(s2)){
+	System.out.println("Both string are same") // Both String are same
+	}
+	
+	toUpperCase() method :- 
+	String s1 = "India" ;
+	String s2 = s1.toUpperCase() ;
+	System.out.println(s2) ; // "INDIA" 
+	
+	
+	toLowerCase() method :- 
+	String s1 = "INDIA" ;
+	String s2 = s1.toLowerCase() ;
+	System.out.println(s2)  ; //  "india"
+	
+	charAt() method :-
+	String s1 = "String 1"
+	char character = s1.charAt(3) ;
+	System.out.println(character) ;// i
+	
+	length() method :-
+	String s1 = "Normal String" ;
+	int len = s1.length() ;
+	System.out.println(len) ; // 13 
+
+
+b) What is the difference between equals method and == operator in java? And what will be the output of the
+following code snippets and giving proper explanation.
+
+	ans) 
+		 equals method compare the content of an object to another object while == operator compare the ref add of the object.
+		 
+		 
+		 Code snippet 1 :
+		 	true ;
+		 	
+		 Code snippet 2 :
+		 	true ;
+		 	
+		 Code snippet3 :
+		 	true ;
+
