@@ -1,0 +1,27 @@
+
+
+	HashCode:
+		HashCode can be define as it is an integer value associated with every object in Java.
+		Each object will have different HashCode if contain is different.
+		It is use for hashing in hash table.
+		To get this hashcode value for an object we can use inbuild method.
+		We can also Override this HashCode Method in child class.
+		HashCode is define in Object class.
+		So we can call this HashCode method a predefine method also.
+		HashCode will give similar hashcode for two object if equals method give true.
+		
+			Example.
+				Object.hashCode(bookName) ;
+					It will give an integer number.
+			
+	Equals Method:
+		The equals() is also a method available in the Object class.
+		It is use to compare two object are equals or not.
+		As it is declare in the Object class it is also a predefine method.
+		But we can Override this method in the child class.
+		If all the contains of two object is simiallar we can make thos two object logically equal.
+		By default two object will be same only if they are store in same memory.
+		
+			Example.
+				object1.equlas(object2) ; 
+					 It will give true or false according to situation.
